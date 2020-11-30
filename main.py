@@ -1,9 +1,10 @@
 #Where all the magics happen
 import HappyNARU
+from getpass import getpass
 
 #test
 id = input("ID : ")
-pw = input("PW : ")
+pw = getpass("PW : ")
 
 things_to_take = [1, 3, 13]
 
