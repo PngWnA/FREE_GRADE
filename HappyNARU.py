@@ -46,7 +46,7 @@ def enter_education(driver, ID, PW):
     driver.switch_to.window(driver.window_handles[-1])
 
     # Switch to new tab
-    sleep(LATENCY)
+    sleep(LATENCY*2)
     driver.switch_to.window(driver.window_handles[-1])
 
     # Select Identification
